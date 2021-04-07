@@ -3836,6 +3836,7 @@ input, select, textarea {
 			right: 0;
 			text-transform: uppercase;
 			top: 0;
+			color: #000000;
 		}
 
 			#header > .navPanelToggle:before {
@@ -3965,7 +3966,7 @@ input, select, textarea {
 						}
 
 				#nav > ul > li.current a, #nav > ul > li.current span {
-					background-color: rgba(255, 255, 255, 0.05);
+					background-color: rgba(216, 150, 63, 0.637);
 				}
 
 				#nav > ul > li.active a, #nav > ul > li.active span {
@@ -4200,7 +4201,7 @@ input, select, textarea {
 		transition: transform 0.5s ease 0s, box-shadow 0.5s ease 0s, visibility 0.5s 0s;
 		-webkit-overflow-scrolling: touch;
 		box-shadow: none;
-		color: #ffffff;
+		color: #000000;
 		height: 100%;
 		max-width: 80%;
 		overflow-y: auto;
