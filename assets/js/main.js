@@ -59,7 +59,43 @@
 					side: 'right'
 				});
 
+				// if($header.hasClass('reveal')){
 				
+				// 	$('.navPanelToggle').css('color', 'black');
+					
+				// } else {
+				// 	$('.navPanelToggle').css('color', '#ffffff');
+				// }
+
+				if (location.href === 'file:///Users/jessesmith/Desktop/V&P/v&p_site_0.1/index.html'){
+					$window.scroll(function(){
+						let scroll = $window.scrollTop();
+						if(scroll > 300) {
+						$('.navPanelToggle').css('color', 'black');
+					}else {
+							$('.navPanelToggle').css('color', '#ffffff');
+		
+							}
+					})
+				}else if($header.hasClass('reveal')){
+				
+					$('.navPanelToggle').css('color', 'black');
+					
+				}
+			
+
+
+		
+				// if($window.scroll(function() {
+				// 	let scroll = $window.scrollTop();
+				// 	if(scroll > 300) {
+				// 		$('.navPanelToggle').css('color', 'black');
+				// 	}
+				// 	else {
+				// 		$('.navPanelToggle').css('color', '#ffffff');
+
+				// 	}
+				// }))
 
 	// Scrolly.
 		$('.scrolly').scrolly({
@@ -78,11 +114,12 @@
 				bottom:		$header.outerHeight() - 64,
 				terminate:	function() { $header.removeClass('alt'); $body.removeClass('header-alt'); },
 				enter:		function() { $header.addClass('alt'); $body.addClass('header-alt'); $header.removeClass('reveal')},
-				leave:		function() { $header.removeClass('alt'); $body.removeClass('header-alt'); $header.addClass('reveal'); }
+				leave:		function() { $header.removeClass('alt'); $body.removeClass('header-alt'); $header.addClass('reveal')}
 			});
 
 			
 		}
+
 
 	// Banner.
 

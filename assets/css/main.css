@@ -1,6 +1,6 @@
 @import url(fontawesome-all.min.css);
 /* @import url("https://fonts.googleapis.com/css?family=IBM+Plex+Sans:200,200i,400,400i"); */
-@import url('https://fonts.googleapis.com/css2?family=Bitter:wght@100;300;700&family=Raleway:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bitter:wght@100;300;500;700&family=Raleway:wght@200&display=swap');
 /*
 	Hyperbolic by Pixelarity
 	pixelarity.com | hello@pixelarity.com
@@ -3722,8 +3722,10 @@ input, select, textarea {
 		width: 100%;
 		z-index: 10000;
 		font-family: "Bitter", Helvetica, serif;
-		font-weight: 300;
+		font-weight: 500;
 	}
+
+	
 
 		#header input, #header select, #header textarea {
 			color: #ffffff;
@@ -3836,6 +3838,10 @@ input, select, textarea {
 			right: 0;
 			text-transform: uppercase;
 			top: 0;
+			color: #ffffff;
+		}
+
+		.navPanelToggleScroll {
 			color: #000000;
 		}
 
@@ -3935,23 +3941,63 @@ input, select, textarea {
 			}
 
 			/* Float */
-#nav > ul > li {
-	display: inline-block;
-	vertical-align: middle;
-	-webkit-transform: perspective(1px) translateZ(0);
-	transform: perspective(1px) translateZ(0);
-	box-shadow: 0 0 1px rgba(0, 0, 0, 0);
-	-webkit-transition-duration: 0.3s;
-	transition-duration: 0.3s;
-	-webkit-transition-property: transform;
-	transition-property: transform;
-	-webkit-transition-timing-function: ease-out;
-	transition-timing-function: ease-out;
-  }
-  #nav > ul > li:hover, #nav > ul > li:focus, #nav > ul > li:active {
-	-webkit-transform: translateY(-8px);
-	transform: translateY(-8px);
-  }
+			/* #nav > ul > li {
+				display: inline-block;
+				vertical-align: middle;
+				-webkit-transform: perspective(1px) translateZ(0);
+				transform: perspective(1px) translateZ(0);
+				box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+				-webkit-transition-duration: 0.3s;
+				transition-duration: 0.3s;
+				-webkit-transition-property: transform;
+				transition-property: transform;
+				-webkit-transition-timing-function: ease-out;
+				transition-timing-function: ease-out;
+			}
+			#nav > ul > li:hover, #nav > ul > li:focus, #nav > ul > li:active {
+				-webkit-transform: translateY(-8px);
+				transform: translateY(-8px);
+			} */
+
+			/* Underline From Center */
+			#nav > ul > li {
+				display: inline-block;
+				vertical-align: middle;
+				-webkit-transform: perspective(1px) translateZ(0);
+				transform: perspective(1px) translateZ(0);
+				box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+				-webkit-transition-duration: 0.3s;
+				transition-duration: 0.3s;
+				-webkit-transition-property: transform;
+				transition-property: transform;
+			}
+			#nav > ul > li:before {
+				content: "";
+				position: absolute;
+				margin-bottom: .25em;
+				z-index: -1;
+				left: 51%;
+				right: 51%;
+				bottom: 0;
+				background: #fa9e3e;
+				height: 4px;
+				-webkit-transition-property: left, right;
+				transition-property: left, right;
+				-webkit-transition-duration: 0.3s;
+				transition-duration: 0.3s;
+				-webkit-transition-timing-function: ease-out;
+				transition-timing-function: ease-out;
+			}
+			.reveal #nav > ul > li:hover:before, .reveal #nav > ul > li:focus:before, .reveal #nav > ul > li:active:before {
+				left: 0;
+				right: 0;
+			}
+
+			
+			  #nav > ul > li:hover, #nav > ul > li:focus, #nav > ul > li:active {
+				-webkit-transform: scale(1.1);
+				transform: scale(1.1);
+			  }
 
 				#nav > ul > li:first-child {
 					margin-left: 0;
