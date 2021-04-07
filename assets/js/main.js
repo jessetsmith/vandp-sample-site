@@ -67,7 +67,7 @@
 				// 	$('.navPanelToggle').css('color', '#ffffff');
 				// }
 
-				if (location.href === 'file:///Users/jessesmith/Desktop/V&P/v&p_site_0.1/index.html'){
+				if (location.href === 'https://vandpdigital.github.io/v-p_site_0.1/index.html'){
 					$window.scroll(function(){
 						let scroll = $window.scrollTop();
 						if(scroll > 300) {
