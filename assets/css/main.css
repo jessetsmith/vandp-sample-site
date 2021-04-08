@@ -3697,7 +3697,7 @@ input, select, textarea {
 		background-color: #3a3a3a;
 		color: #ffffff;
 		background-color: #0b455e;
-		background-image: url("../../images/overlay.png"), linear-gradient(90deg, rgba(245, 74, 111, 0),#EBF8FF 90%);
+		background-image: url("../../images/overlay.png"), linear-gradient(90deg, rgba(245, 74, 111, 0),#9bb7c7 90%);
 		background-size: auto, auto;
 		background-repeat: repeat, no-repeat;
 		-moz-align-items: center;
