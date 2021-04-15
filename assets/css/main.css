@@ -3103,6 +3103,36 @@ input, select, textarea {
 
 /* Spotlights */
 
+/* .bios {
+	margin-bottom: 4em;
+}
+
+#bios {
+	padding: 1.5em;
+	padding-top: 5em;
+}
+
+.bioSections {
+	margin-bottom: 3em;
+}
+
+#EliBioImg {
+	margin-bottom: 5em;
+
+}
+#kelliBioImg {
+	margin-bottom: 5em;
+
+}
+#derekBioImg {
+	margin-bottom: 5em;
+
+}
+#jesseBioImg {
+	margin-bottom: 5em;
+
+} */
+
 	.spotlights {
 		margin: 0 0 2rem 0;
 	}
@@ -3176,6 +3206,7 @@ input, select, textarea {
 					margin-right: 0;
 				}
 
+
 		@media screen and (max-width: 1280px) {
 
 			.spotlights section {
@@ -3191,7 +3222,42 @@ input, select, textarea {
 					margin: 0 0 0 4rem;
 				}
 
+				
+
 		}
+
+		@media screen and (min-width: 965px ){
+			.bios {
+				margin-bottom: 4em;
+			}
+			
+			#bios {
+				padding: 1.5em;
+				padding-top: 5em;
+			}
+			
+			.bioSections {
+				margin-bottom: 3em;
+			}
+			
+			#EliBioImg {
+				margin-bottom: 5em;
+			
+			}
+			/* #kelliBioImg {
+				margin-bottom: 2em;
+			
+			} */
+			#derekBioImg {
+				margin-bottom: 2em;
+			
+			}
+			#jesseBioImg {
+				margin-bottom: 3em;
+			
+			}
+		}
+
 
 		@media screen and (max-width: 980px) {
 
@@ -3222,6 +3288,16 @@ input, select, textarea {
 						margin-left: auto;
 						margin-right: auto;
 					}
+					
+					
+		}
+
+		@media screen and (max-width: 965px){
+			
+			#bios {
+				padding: 0;
+				padding-top: 0;
+			}
 
 		}
 
