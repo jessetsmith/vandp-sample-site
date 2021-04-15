@@ -4036,7 +4036,7 @@ input, select, textarea {
 			} */
 
 			/* Underline From Center */
-			#nav > ul > li {
+			/* #nav > ul > li {
 				display: inline-block;
 				vertical-align: middle;
 				-webkit-transform: perspective(1px) translateZ(0);
@@ -4067,7 +4067,7 @@ input, select, textarea {
 			.reveal #nav > ul > li:hover:before, .reveal #nav > ul > li:focus:before, .reveal #nav > ul > li:active:before {
 				left: 0;
 				right: 0;
-			}
+			} */
 
 			
 			  #nav > ul > li:hover, #nav > ul > li:focus, #nav > ul > li:active {
@@ -4107,7 +4107,7 @@ input, select, textarea {
 						}
 
 				#nav > ul > li.current a, #nav > ul > li.current span {
-					background-color: rgba(216, 150, 63, 0.637);
+					background-color:  rgba(255, 255, 255, 0.337) ;
 				}
  
 				#nav > ul > li.active a, #nav > ul > li.active span {
