@@ -2782,6 +2782,15 @@ input, select, textarea {
 			background-repeat: repeat, no-repeat;
 		}
 
+		/*.wrapper.style2.losangeles {
+			background-color: #3a3a3a;
+			color: #ffffff;
+			background-color: #0b455e;
+			background-image: url("../../images/overlay.png"), url("images/losangeles_view.png");
+			background-size: auto, auto;
+			background-repeat: repeat, no-repeat;
+		}*/
+
 			.wrapper.style2 input, .wrapper.style2 select, .wrapper.style2 textarea {
 				color: #ffffff;
 			}
