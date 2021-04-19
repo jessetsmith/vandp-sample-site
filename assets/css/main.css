@@ -177,6 +177,11 @@ input, select, textarea {
 		font-size: 1.3em;
 	}
 
+	.small-p {
+		font-size: 0.9em;
+		margin: 0 0 0.5rem 0;
+	}
+
 	h1, h2, h3, h4, h5, h6 {
 		font-weight: 200;
 		line-height: 1.5;
