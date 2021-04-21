@@ -2829,7 +2829,7 @@ input, select, textarea {
 				background: #ffffff;
 			}
 
-			.wrapper.style2 .box {
+			.wrapper.style2 .box, .wrapper.style3 {
 				border-color: #ffffff;
 			}
 
@@ -2892,14 +2892,14 @@ input, select, textarea {
 				color: #ffffff;
 			}
 
-			.wrapper.style2 input[type="text"],
-			.wrapper.style2 input[type="password"],
-			.wrapper.style2 input[type="email"],
-			.wrapper.style2 input[type="tel"],
-			.wrapper.style2 input[type="search"],
-			.wrapper.style2 input[type="url"],
-			.wrapper.style2 select,
-			.wrapper.style2 textarea {
+			.wrapper.style2 input[type="text"], .wrapper.style3 input[type="text"],
+			.wrapper.style2 input[type="password"], .wrapper.style3 input[type="password"],
+			.wrapper.style2 input[type="email"], .wrapper.style3 input[type="email"],
+			.wrapper.style2 input[type="tel"], .wrapper.style3 input[type="tel"],
+			.wrapper.style2 input[type="search"], .wrapper.style3 input[type="search"],
+			.wrapper.style2 input[type="url"], .wrapper.style3 input[type="url"],
+			.wrapper.style2 select, .wrapper.style3 select,
+			.wrapper.style2 textarea, .wrapper.style3 textarea {
 				border-color: #ffffff;
 			}
 
@@ -2910,7 +2910,15 @@ input, select, textarea {
 				.wrapper.style2 input[type="search"]:focus,
 				.wrapper.style2 input[type="url"]:focus,
 				.wrapper.style2 select:focus,
-				.wrapper.style2 textarea:focus {
+				.wrapper.style2 textarea:focus,
+				.wrapper.style3 input[type="text"]:focus,
+				.wrapper.style3 input[type="password"]:focus,
+				.wrapper.style3 input[type="email"]:focus,
+				.wrapper.style3 input[type="tel"]:focus,
+				.wrapper.style3 input[type="search"]:focus,
+				.wrapper.style3 input[type="url"]:focus,
+				.wrapper.style3 select:focus,
+				.wrapper.style3 textarea:focus {
 					border-color: #ffffff;
 					box-shadow: 0 0 0 1px #ffffff;
 				}
@@ -2947,27 +2955,27 @@ input, select, textarea {
 				box-shadow: 0 0 0 1px #ffffff;
 			}
 
-			.wrapper.style2 ::-webkit-input-placeholder {
+			.wrapper.style2 ::-webkit-input-placeholder, .wrapper.style3 ::-webkit-input-placeholder {
 				color: rgba(255, 255, 255, 0.5) !important;
 			}
 
-			.wrapper.style2 :-moz-placeholder {
+			.wrapper.style2 :-moz-placeholder, .wrapper.style3 :-moz-placeholder {
 				color: rgba(255, 255, 255, 0.5) !important;
 			}
 
-			.wrapper.style2 ::-moz-placeholder {
+			.wrapper.style2 ::-moz-placeholder, .wrapper.style3 ::-moz-placeholder {
 				color: rgba(255, 255, 255, 0.5) !important;
 			}
 
-			.wrapper.style2 :-ms-input-placeholder {
+			.wrapper.style2 :-ms-input-placeholder, .wrapper.style3 :-ms-input-placeholder {
 				color: rgba(255, 255, 255, 0.5) !important;
 			}
 
-			.wrapper.style2 ul.alt li {
+			.wrapper.style2 ul.alt li, .wrapper.style3 ul.alt li {
 				border-top-color: #ffffff;
 			}
 
-			.wrapper.style2 table tbody tr {
+			.wrapper.style2 table tbody tr, .wrapper.style3 table tbody tr {
 				border-color: #ffffff;
 			}
 
