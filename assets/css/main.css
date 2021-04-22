@@ -314,6 +314,7 @@ input, select, textarea {
 
 	#banner video {
 		width: 30%;
+		box-shadow: 0 0.5rem 1.75rem 0 rgb(0 0 0 / 25%);
 	}
 
 	@media screen and (max-width: 1280px) {
