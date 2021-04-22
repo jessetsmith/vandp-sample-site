@@ -312,6 +312,28 @@ input, select, textarea {
 
 		}
 
+	#banner video {
+		width: 30%;
+	}
+
+	@media screen and (max-width: 1280px) {
+		#banner video {
+			width: 60%;
+		}
+	}
+
+	@media screen and (max-width: 736px) {
+		#banner video {
+			width: 80%;
+		}
+	}
+	
+	@media screen and (max-width: 480px) {
+		#banner video {
+			width: 100%;
+		}
+	}
+
 	header.major h1, header.major h2, header.major h3, header.major h4, header.major h5, header.major h6 {
 		margin: 0 0 0.875em 0;
 		padding-bottom: 0.875em;
