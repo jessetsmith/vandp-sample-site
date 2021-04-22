@@ -2076,6 +2076,7 @@ input, select, textarea {
 		.button.primary {
 			background-color: #0b455e;
 			background-size: auto, auto;
+			background-image: url("../../images/overlay.png"), linear-gradient(45deg, rgba(245, 74, 111, 0), #EBF8FF 80%);
 			background-repeat: repeat, no-repeat;
 			box-shadow: 0 0.5rem 1.75rem 0 rgba(0, 0, 0, 0.25);
 			color: #fff !important;
@@ -2315,6 +2316,7 @@ input, select, textarea {
 	input[type="radio"]:checked + label:before {
 		background-color: #0b455e;
 		background-size: auto, auto;
+		background-image: url("../../images/overlay.png"), linear-gradient(45deg, rgba(245, 74, 111, 0), #EBF8FF 80%);
 		background-repeat: repeat, no-repeat;
 		border-color: #fa9e3e;
 		color: #ffffff;
@@ -3600,6 +3602,7 @@ input, select, textarea {
 			#banner .button.primary {
 				background-color: #0b455e;
 				background-size: auto, auto;
+				background-image: url("../../images/overlay.png"), linear-gradient(45deg, rgba(245, 74, 111, 0), #EBF8FF 80%);
 				background-repeat: repeat, no-repeat;
 				box-shadow: 0 0.5rem 1.75rem 0 rgba(0, 0, 0, 0.25);
 				color: #fff !important;
