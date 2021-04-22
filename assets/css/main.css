@@ -1928,6 +1928,29 @@ input, select, textarea {
 
 /* Button */
 
+.inputfile {
+	width: 0.1px;
+	height: 0.1px;
+	opacity: 0;
+	overflow: hidden;
+	position: absolute;
+	z-index: -1;
+}
+
+.inputfile+label {
+	color: black;
+}
+
+.inputfile:focus+label,
+.inputfile+label:hover {
+	color:black;
+}
+
+.inputfile+label {
+	cursor: pointer;
+	/* "hand" cursor */
+}
+
 	input[type="submit"],
 	input[type="reset"],
 	input[type="button"],
