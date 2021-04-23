@@ -3516,7 +3516,7 @@ input, select, textarea {
 			} 
 
 			#videoButton > i:hover {
-				color: #fa9e3e;
+				color: #fa9f3eda;
 			}
 
 		@media screen and (min-width: 1280px) {
@@ -3600,8 +3600,9 @@ input, select, textarea {
 
 		@media screen and (max-width: 736px) {
 
-			.features > .image img {
-				width: 15rem;
+			.features > .image video {
+				width: 25rem;
+				height: 25rem;
 			}
 
 		}
@@ -4014,6 +4015,17 @@ input, select, textarea {
 			font-size: 0.9rem;
 			text-transform: uppercase;
 			white-space: nowrap;
+			display:flex;
+			flex-direction: row;
+			align-content: center;
+			align-items: center;
+		}
+
+		#logoImg {
+			height: 3.5rem;
+			width: 3.5rem;
+			margin-right: 1rem;
+			margin-top: -.01rem;
 		}
 
 		#header.reveal {
@@ -4136,9 +4148,17 @@ input, select, textarea {
 				line-height: 3rem;
 			}
 
+
+			#logoImg {
+				height: 3rem;
+				width: 3rem;
+				
+			}
+
 				#header + #banner {
 					margin-top: -3rem;
 				}
+
 
 		}
 
