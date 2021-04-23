@@ -2842,6 +2842,7 @@ input, select, textarea {
 			background-image: url("../../images/overlay.png"), linear-gradient(45deg, rgba(245, 171, 74, 0), #d1c9be 80%);
 			background-size: auto, auto;
 			background-repeat: repeat, no-repeat;
+			;
 		}
 
 			.wrapper.style2 input, .wrapper.style2 select, .wrapper.style2 textarea, .wrapper.style3 input, .wrapper.style3 select, .wrapper.style3 textarea {
