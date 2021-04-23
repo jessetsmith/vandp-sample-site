@@ -139,3 +139,29 @@
 			}
 
 })(jQuery);
+
+const playButton = document.getElementById("videoButton");
+const video = document.getElementById("welcomeVid")
+
+// const playVideo = () => {
+// 	video.play();
+// }
+
+// const pauseVideo = (e) => {
+// 	e.preventDefault;
+// 	video.play();
+// }
+
+playButton.addEventListener('click', function playVideo(){ 
+	playButton.style.display = 'none';
+	video.play();
+
+})
+
+video.addEventListener('click', function pauseVideo() {
+	video.pause();
+	playButton.style.display = 'block';
+
+})
+
+

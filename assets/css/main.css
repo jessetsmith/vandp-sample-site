@@ -2077,7 +2077,6 @@ input, select, textarea {
 			background-color: #0b455e;
 			background-image: url("../../images/overlay.png"), linear-gradient(45deg, rgba(245, 74, 111, 0), #2DC0C4 80%);
 			background-size: auto, auto;
-			background-image: url("../../images/overlay.png"), linear-gradient(45deg, rgba(245, 74, 111, 0), #EBF8FF 80%);
 			background-repeat: repeat, no-repeat;
 			box-shadow: 0 0.5rem 1.75rem 0 rgba(0, 0, 0, 0.25);
 			color: white !important;
@@ -2319,7 +2318,6 @@ input, select, textarea {
 		background-color: #0b455e;
 		background-image: url("../../images/overlay.png"), linear-gradient(45deg, rgba(245, 74, 111, 0), #2DC0C4 80%);
 		background-size: auto, auto;
-		background-image: url("../../images/overlay.png"), linear-gradient(45deg, rgba(245, 74, 111, 0), #EBF8FF 80%);
 		background-repeat: repeat, no-repeat;
 		border-color: #fa9e3e;
 		color: #ffffff;
@@ -3470,13 +3468,54 @@ input, select, textarea {
 			-ms-flex-shrink: 0;
 			flex-shrink: 0;
 			margin-right: -4rem;
+			border-radius: 100%;
+			display: flex;
+			align-items: center;
+			align-content: center;
+			justify-content: center;
 		} 
 
-			.features > .image img {
+			.features > .image video {
 				border-radius: 100%;
 				box-shadow: 0 1rem 3rem 0 rgba(0, 0, 0, 0.25);
 				display: block;
 				width: 30rem;
+				height: 30rem;
+				object-fit: cover;
+				cursor: pointer;
+			}
+
+			#videoButton {
+				
+					background-color: #0b455e;
+					background-image: url("../../images/overlay.png"), linear-gradient(45deg, rgba(245, 74, 111, 0), #2DC0C4 80%);
+					background-size: auto, auto;
+					background-repeat: repeat, no-repeat;
+					border: medium none;
+					border-radius: 100%;
+					color: #fff;
+					display: block;
+					font-size: 18px;
+					left: 0;
+					margin: 0 auto;
+					padding: 8px 16px;
+					position: absolute;
+					right: 0;
+					/* top: 40%; */
+					height: 6rem;
+					width: 6rem;
+					cursor: pointer;
+					z-index: 5;
+			}
+
+			#videoButton > i {
+				font-size: 5rem;
+				display: flex;
+				justify-content: center;
+			} 
+
+			#videoButton > i:hover {
+				color: #fa9e3e;
 			}
 
 		@media screen and (min-width: 1280px) {
@@ -3489,6 +3528,8 @@ input, select, textarea {
 			
 				margin-right: -4rem;
 			} 
+
+		
 		}
 
 
@@ -3649,7 +3690,6 @@ input, select, textarea {
 				background-color: #0b455e;
 				background-image: url("../../images/overlay.png"), linear-gradient(45deg, rgba(245, 74, 111, 0), #2DC0C4 80%);
 				background-size: auto, auto;
-				background-image: url("../../images/overlay.png"), linear-gradient(45deg, rgba(245, 74, 111, 0), #EBF8FF 80%);
 				background-repeat: repeat, no-repeat;
 				box-shadow: 0 0.5rem 1.75rem 0 rgba(0, 0, 0, 0.25);
 				color: white !important;
