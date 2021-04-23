@@ -1,6 +1,6 @@
 @import url(fontawesome-all.min.css);
 /* @import url("https://fonts.googleapis.com/css?family=IBM+Plex+Sans:200,200i,400,400i"); */
-@import url('https://fonts.googleapis.com/css2?family=Bitter:wght@100;300;500;700&family=Raleway:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bitter:wght@100;300;500;700&family=Raleway:wght@200;300;400&display=swap');
 /*
 	Hyperbolic by Pixelarity
 	pixelarity.com | hello@pixelarity.com
@@ -186,7 +186,7 @@ input, select, textarea {
 		font-weight: 200;
 		line-height: 1.5;
 		margin: 0 0 1.5rem 0;
-		text-transform: uppercase;
+		/* text-transform: uppercase; */
 		font-family: "Bitter", Helvetica, serif;
 		font-weight: bold;
 	}
@@ -407,7 +407,7 @@ input, select, textarea {
 
 	header.major h1:after, header.major h2:after, header.major h3:after, header.major h4:after, header.major h5:after, header.major h6:after {
 		background-color: #0b455e;
-		background-image: url("../../images/overlay.png"), linear-gradient(90deg, rgba(245, 74, 111, 0), #EBF8FF 90%);
+		background-image: url("../../images/overlay.png"), linear-gradient(90deg, rgba(245, 74, 111, 0), #2DC0C4 90%);
 		background-size: auto, auto;
 		background-repeat: repeat, no-repeat;
 	}
@@ -2029,11 +2029,11 @@ input, select, textarea {
 		button.primary,
 		.button.primary {
 			background-color: #0b455e;
-			background-image: url("../../images/overlay.png"), linear-gradient(45deg, rgba(245, 74, 111, 0), #EBF8FF 80%);
+			background-image: url("../../images/overlay.png"), linear-gradient(45deg, rgba(245, 74, 111, 0), #2DC0C4 80%);
 			background-size: auto, auto;
 			background-repeat: repeat, no-repeat;
 			box-shadow: 0 0.5rem 1.75rem 0 rgba(0, 0, 0, 0.25);
-			color: #000000 !important;
+			color: white !important;
 		}
 
 			input[type="submit"].primary:hover,
@@ -2269,7 +2269,7 @@ input, select, textarea {
 	input[type="checkbox"]:checked + label:before,
 	input[type="radio"]:checked + label:before {
 		background-color: #0b455e;
-		background-image: url("../../images/overlay.png"), linear-gradient(45deg, rgba(245, 74, 111, 0), #EBF8FF 80%);
+		background-image: url("../../images/overlay.png"), linear-gradient(45deg, rgba(245, 74, 111, 0), #2DC0C4 80%);
 		background-size: auto, auto;
 		background-repeat: repeat, no-repeat;
 		border-color: #fa9e3e;
@@ -2776,13 +2776,14 @@ input, select, textarea {
 
 		.wrapper.style1 {
 			background-color: #ffffff;
+			
 		}
 
 		.wrapper.style2 {
 			background-color: #3a3a3a;
 			color: #ffffff;
 			background-color: #0b455e;
-			background-image: url("../../images/overlay.png"), linear-gradient(45deg, rgba(245, 74, 111, 0), #becad1 80%);
+			background-image: url("../../images/overlay.png"), linear-gradient(45deg, rgba(245, 74, 111, 0), #2DC0C4 80%);
 			background-size: auto, auto;
 			background-repeat: repeat, no-repeat;
 		}
@@ -2865,7 +2866,7 @@ input, select, textarea {
 				.wrapper.style2 button.primary,
 				.wrapper.style2 .button.primary {
 					background-color: #0b455e;
-					background-image: url("../../images/overlay.png"), linear-gradient(45deg, rgba(245, 74, 111, 0), #EBF8FF 80%);
+					background-image: url("../../images/overlay.png"), linear-gradient(45deg, rgba(245, 74, 111, 0), #2DC0C4 80%);
 					background-size: auto, auto;
 					background-repeat: repeat, no-repeat;
 					box-shadow: 0 0.5rem 1.75rem 0 rgba(0, 0, 0, 0.25);
@@ -3053,10 +3054,10 @@ input, select, textarea {
 
 				.wrapper.style2.alt:before, .wrapper.style3.alt:before {
 					background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='1900' height='150' viewBox='0 0 1900 150' preserveAspectRatio='none'%3E%3Cpath d='M0,0h1900c-243.3,58.2-596.3,123.9-949.4,124h-1.2C596.3,123.9,243.3,58.2,0,0z' fill='%23ffffff'/%3E%3C/svg%3E");
-					background-size: 100% 100%;
+					background-size: 200%;
 					background-position: center;
 					content: '';
-					height: 8rem;
+					height: 10rem;
 					left: 0;
 					position: absolute;
 					top: 0;
@@ -3071,8 +3072,22 @@ input, select, textarea {
 					}
 
 						.wrapper.style2.alt:before, .wrapper.style3.alt:before {
+							background-size: 200%;
+							height: 8rem;
+						}
+
+				}
+
+				@media screen and (max-width: 810px) {
+
+					.wrapper.style2.alt, .wrapper.style3.alt {
+						margin-top: -0.75rem;
+						padding-top: 6.75rem;
+					}
+
+						.wrapper.style2.alt:before, .wrapper.style3.alt:before {
 							background-size: 125% 100%;
-							height: 6rem;
+							height: 5rem;
 						}
 
 				}
@@ -3340,16 +3355,21 @@ input, select, textarea {
 		display: -ms-flex;
 		display: flex;
 		margin: 0 0 2rem 0;
+		width: 100%;
+		justify-content: space-evenly;
+		align-content: center;
 	}
 
 		.features > ul {
 			margin-bottom: 0;
 			padding-left: 0;
+
 		}
 
 			.features > ul > li {
 				list-style: none;
 				margin-top: 3rem;
+				
 			}
 
 				.features > ul > li > :last-child {
@@ -3367,13 +3387,21 @@ input, select, textarea {
 
 			.features > ul:last-child {
 				margin-left: 4rem;
+
 				text-align: left;
 			}
+			
 
 			.features > ul h3 {
 				font-size: 1.25rem;
 				margin: 0 0 0.75rem 0;
 			}
+
+			.features > ul p {
+				font-size: 1rem;
+				font-weight: 400;
+			}
+
 
 		.features > .image {
 			-moz-flex-grow: 0;
@@ -3384,7 +3412,8 @@ input, select, textarea {
 			-webkit-flex-shrink: 0;
 			-ms-flex-shrink: 0;
 			flex-shrink: 0;
-		}
+			margin-right: -4rem;
+		} 
 
 			.features > .image img {
 				border-radius: 100%;
@@ -3392,6 +3421,19 @@ input, select, textarea {
 				display: block;
 				width: 30rem;
 			}
+
+		@media screen and (min-width: 1280px) {
+			.features > ul:last-child > li {
+				padding-right: .5rem;
+				margin-left: 4rem;
+			}
+
+			.features > .image {
+			
+				margin-right: -4rem;
+			} 
+		}
+
 
 		@media screen and (max-width: 1280px) {
 
@@ -3417,7 +3459,7 @@ input, select, textarea {
 
 					.features > .image > img {
 						margin: 0 auto;
-						width: 20rem;
+						width: 30rem;
 					}
 
 				.features > ul {
@@ -3506,13 +3548,14 @@ input, select, textarea {
 		-ms-justify-content: center;
 		justify-content: center;
 		background-attachment: fixed, fixed;
-		background-image: linear-gradient(90deg, rgba(58, 58, 58, 0.6), rgba(58, 58, 58, 0.6)), url("../../images/kyle-johnson-Aq7id0ZjEW4-unsplash.jpg");
+		background-image: linear-gradient(90deg, rgba(58, 58, 58, 0.6), rgba(58, 58, 58, 0.6)), url("../../images/beach_banner.jpg");
 		background-position: center, center;
 		background-repeat: repeat, no-repeat;
 		background-size: auto, cover;
 		min-height: calc(75vh + 7rem);
 		position: relative;
 		text-align: center;
+		z-index: 5;
 	}
 
 		#banner input[type="submit"],
@@ -3522,7 +3565,7 @@ input, select, textarea {
 		#banner .button {
 			background-color: transparent;
 			box-shadow: inset 0 0 0 1px #ffffff;
-			color: #000000 !important;
+			color: white !important;
 		}
 
 			#banner input[type="submit"]:hover,
@@ -3547,11 +3590,11 @@ input, select, textarea {
 			#banner button.primary,
 			#banner .button.primary {
 				background-color: #0b455e;
-				background-image: url("../../images/overlay.png"), linear-gradient(45deg, rgba(245, 74, 111, 0), #EBF8FF 80%);
+				background-image: url("../../images/overlay.png"), linear-gradient(45deg, rgba(245, 74, 111, 0), #2DC0C4 80%);
 				background-size: auto, auto;
 				background-repeat: repeat, no-repeat;
 				box-shadow: 0 0.5rem 1.75rem 0 rgba(0, 0, 0, 0.25);
-				color: #000000 !important;
+				color: white !important;
 			}
 
 				#banner input[type="submit"].primary:hover,
@@ -3584,6 +3627,7 @@ input, select, textarea {
 
 		#banner h1, #banner h2, #banner h3, #banner h4, #banner h5, #banner h6 {
 			color: #ffffff;
+			text-align: left;
 		}
 
 		#banner blockquote {
@@ -3601,6 +3645,7 @@ input, select, textarea {
 
 		#banner header.major h1:after, #banner header.major h2:after, #banner header.major h3:after, #banner header.major h4:after, #banner header.major h5:after, #banner header.major h6:after {
 			background: #ffffff;
+			
 		}
 
 		#banner:after {
@@ -3609,7 +3654,7 @@ input, select, textarea {
 			background-position: center;
 			bottom: -1px;
 			content: '';
-			height: 8rem;
+			height: 4rem;
 			left: 0;
 			position: absolute;
 			width: 100%;
@@ -3624,10 +3669,12 @@ input, select, textarea {
 
 				#banner:after {
 					background-size: 125% 100%;
-					height: 6rem;
+					height: 5rem;
 				}
 
 		}
+
+		
 
 		@media screen and (max-width: 736px) {
 
@@ -3665,6 +3712,7 @@ input, select, textarea {
 			transition: transform 1s ease-in-out, opacity 1.25s ease-in-out;
 			position: relative;
 			z-index: 1;
+			
 		}
 
 			#banner > .content > :last-child {
@@ -3791,7 +3839,7 @@ input, select, textarea {
 		background-color: #3a3a3a;
 		color: #ffffff;
 		background-color: #0b455e;
-		background-image: url("../../images/overlay.png"), linear-gradient(90deg, rgba(245, 74, 111, 0),#9bb7c7 90%);
+		background-image: url("../../images/overlay.png"), linear-gradient(90deg, rgba(245, 74, 111, 0),#2DC0C4 90%);
 		background-size: auto, auto;
 		background-repeat: repeat, no-repeat;
 		-moz-align-items: center;
@@ -3898,7 +3946,7 @@ input, select, textarea {
 
 			#header.alt:before {
 				background-color: #0b455e;
-				background-image: url("../../images/overlay.png"), linear-gradient(90deg, rgba(245, 74, 111, 0),#EBF8FF 90%);
+				background-image: url("../../images/overlay.png"), linear-gradient(90deg, rgba(245, 74, 111, 0),#2DC0C4 90%);
 				background-size: auto, auto;
 				background-repeat: repeat, no-repeat;
 				content: '';
@@ -4346,7 +4394,7 @@ input, select, textarea {
 
 	#navPanel {
 		background-color: #0b455e;
-		background-image: url("../../images/overlay.png"), linear-gradient(45deg, rgba(245, 74, 111, 0)#EBF8FF 80%);
+		background-image: url("../../images/overlay.png"), linear-gradient(45deg, rgba(245, 74, 111, 0)#2DC0C4 80%);
 		background-size: auto, auto;
 		background-repeat: repeat, no-repeat;
 		-moz-transform: translateX(20rem);
