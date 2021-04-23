@@ -430,7 +430,7 @@ input, select, textarea {
 
 	header.major h1:after, header.major h2:after, header.major h3:after, header.major h4:after, header.major h5:after, header.major h6:after {
 		background-color: #0b455e;
-		background-image: url("../../images/overlay.png"), linear-gradient(90deg, rgba(245, 74, 111, 0), #2DC0C4 90%);
+		background-image: url("../../images/overlay.png"), linear-gradient(270deg, rgba(245, 74, 111, 0), #2DC0C4 90%);
 		background-size: auto, auto;
 		background-repeat: repeat, no-repeat;
 	}
@@ -2076,7 +2076,7 @@ input, select, textarea {
 		button.primary,
 		.button.primary {
 			background-color: #0b455e;
-			background-image: url("../../images/overlay.png"), linear-gradient(45deg, rgba(245, 74, 111, 0), #2DC0C4 80%);
+			background-image: url("../../images/overlay.png"), linear-gradient(225deg, rgba(245, 74, 111, 0), #2DC0C4 80%);
 			background-size: auto, auto;
 			background-repeat: repeat, no-repeat;
 			box-shadow: 0 0.5rem 1.75rem 0 rgba(0, 0, 0, 0.25);
@@ -2317,7 +2317,7 @@ input, select, textarea {
 	input[type="checkbox"]:checked + label:before,
 	input[type="radio"]:checked + label:before {
 		background-color: #0b455e;
-		background-image: url("../../images/overlay.png"), linear-gradient(45deg, rgba(245, 74, 111, 0), #2DC0C4 80%);
+		background-image: url("../../images/overlay.png"), linear-gradient(225deg, rgba(245, 74, 111, 0), #2DC0C4 80%);
 		background-size: auto, auto;
 		background-repeat: repeat, no-repeat;
 		border-color: #fa9e3e;
@@ -2831,7 +2831,7 @@ input, select, textarea {
 			background-color: #3a3a3a;
 			color: #ffffff;
 			background-color: #0b455e;
-			background-image: url("../../images/overlay.png"), linear-gradient(45deg, rgba(245, 74, 111, 0), #2DC0C4 80%);
+			background-image: url("../../images/overlay.png"), linear-gradient(225deg, rgba(245, 74, 111, 0), #2DC0C4 80%);
 			background-size: auto, auto;
 			background-repeat: repeat, no-repeat;
 		}
@@ -2840,7 +2840,7 @@ input, select, textarea {
 			background-color: #3a3a3a;
 			color: #ffffff;
 			background-color: #fa9e3e;
-			background-image: url("../../images/overlay.png"), linear-gradient(45deg, rgba(245, 171, 74, 0), #d1c9be 80%);
+			background-image: url("../../images/overlay.png"), linear-gradient(225deg, rgba(245, 171, 74, 0), #d1c9be 80%);
 			background-size: auto, auto;
 			background-repeat: repeat, no-repeat;
 			;
@@ -2915,7 +2915,7 @@ input, select, textarea {
 				.wrapper.style2 button.primary,
 				.wrapper.style2 .button.primary {
 					background-color: #0b455e;
-					background-image: url("../../images/overlay.png"), linear-gradient(45deg, rgba(245, 74, 111, 0), #2DC0C4 80%);
+					background-image: url("../../images/overlay.png"), linear-gradient(225deg, rgba(245, 74, 111, 0), #2DC0C4 80%);
 					background-size: auto, auto;
 					background-repeat: repeat, no-repeat;
 					box-shadow: 0 0.5rem 1.75rem 0 rgba(0, 0, 0, 0.25);
@@ -3490,7 +3490,7 @@ input, select, textarea {
 			#videoButton {
 				
 					background-color: #0b455e;
-					background-image: url("../../images/overlay.png"), linear-gradient(45deg, rgba(245, 74, 111, 0), #2DC0C4 80%);
+					background-image: url("../../images/overlay.png"), linear-gradient(225deg, rgba(245, 74, 111, 0), #2DC0C4 80%);
 					background-size: auto, auto;
 					background-repeat: repeat, no-repeat;
 					border: medium none;
@@ -3649,7 +3649,7 @@ input, select, textarea {
 		-ms-justify-content: center;
 		justify-content: center;
 		background-attachment: fixed, fixed;
-		background-image: linear-gradient(90deg, rgba(58, 58, 58, 0.6), rgba(58, 58, 58, 0.6)), url("../../images/beach_banner.jpg");
+		background-image: linear-gradient(270deg, rgba(58, 58, 58, 0.6), rgba(58, 58, 58, 0.6)), url("../../images/beach_banner.jpg");
 		background-position: center, center;
 		background-repeat: repeat, no-repeat;
 		background-size: auto, cover;
@@ -3691,7 +3691,7 @@ input, select, textarea {
 			#banner button.primary,
 			#banner .button.primary {
 				background-color: #0b455e;
-				background-image: url("../../images/overlay.png"), linear-gradient(45deg, rgba(245, 74, 111, 0), #2DC0C4 80%);
+				background-image: url("../../images/overlay.png"), linear-gradient(225deg, rgba(245, 74, 111, 0), #2DC0C4 80%);
 				background-size: auto, auto;
 				background-repeat: repeat, no-repeat;
 				box-shadow: 0 0.5rem 1.75rem 0 rgba(0, 0, 0, 0.25);
@@ -3940,7 +3940,7 @@ input, select, textarea {
 		background-color: #3a3a3a;
 		color: #ffffff;
 		background-color: #0b455e;
-		background-image: url("../../images/overlay.png"), linear-gradient(90deg, rgba(245, 74, 111, 0),#2DC0C4 90%);
+		background-image: url("../../images/overlay.png"), linear-gradient(270deg, rgba(245, 74, 111, 0),#2DC0C4 90%);
 		background-size: auto, auto;
 		background-repeat: repeat, no-repeat;
 		-moz-align-items: center;
@@ -4058,7 +4058,7 @@ input, select, textarea {
 
 			#header.alt:before {
 				background-color: #0b455e;
-				background-image: url("../../images/overlay.png"), linear-gradient(90deg, rgba(245, 74, 111, 0),#2DC0C4 90%);
+				background-image: url("../../images/overlay.png"), linear-gradient(270deg, rgba(245, 74, 111, 0),#2DC0C4 90%);
 				background-size: auto, auto;
 				background-repeat: repeat, no-repeat;
 				content: '';
@@ -4203,7 +4203,7 @@ input, select, textarea {
 			}
 
 			#nav > ul > li:nth-child(5) > a {
-				background-color: #0b455e;
+				background-color: #2DC0C4;
 				box-sizing: border-box;
 			}
 
@@ -4394,7 +4394,7 @@ input, select, textarea {
 		padding-top: 14.75rem;
 		padding: 8rem 0 6rem 0 ;
 		background-attachment: fixed, fixed;
-		background-image: linear-gradient(90deg, rgba(58, 58, 58, 0.6), rgba(58, 58, 58, 0.6)), url("../../images/banner.jpg");
+		background-image: linear-gradient(270deg, rgba(58, 58, 58, 0.6), rgba(58, 58, 58, 0.6)), url("../../images/banner.jpg");
 		background-position: center, center;
 		background-repeat: repeat, no-repeat;
 		background-size: auto, cover;
@@ -4521,7 +4521,7 @@ input, select, textarea {
 
 	#navPanel {
 		background-color: #0b455e;
-		background-image: url("../../images/overlay.png"), linear-gradient(45deg, rgba(245, 74, 111, 0)#2DC0C4 80%);
+		background-image: url("../../images/overlay.png"), linear-gradient(225deg, rgba(245, 74, 111, 0)#2DC0C4 80%);
 		background-size: auto, auto;
 		background-repeat: repeat, no-repeat;
 		-moz-transform: translateX(20rem);
