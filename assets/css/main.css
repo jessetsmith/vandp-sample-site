@@ -312,6 +312,29 @@ input, select, textarea {
 
 		}
 
+	#banner video {
+		width: 50%;
+		box-shadow: 0 0.5rem 1.75rem 0 rgb(0 0 0 / 25%);
+	}
+
+	@media screen and (max-width: 1280px) {
+		#banner video {
+			width: 60%;
+		}
+	}
+
+	@media screen and (max-width: 736px) {
+		#banner video {
+			width: 80%;
+		}
+	}
+	
+	@media screen and (max-width: 480px) {
+		#banner video {
+			width: 100%;
+		}
+	}
+
 	header.major h1, header.major h2, header.major h3, header.major h4, header.major h5, header.major h6 {
 		margin: 0 0 0.875em 0;
 		padding-bottom: 0.875em;
@@ -1905,6 +1928,29 @@ input, select, textarea {
 
 /* Button */
 
+.inputfile {
+	width: 0.1px;
+	height: 0.1px;
+	opacity: 0;
+	overflow: hidden;
+	position: absolute;
+	z-index: -1;
+}
+
+.inputfile+label {
+	color: black;
+}
+
+.inputfile:focus+label,
+.inputfile+label:hover {
+	color:black;
+}
+
+.inputfile+label {
+	cursor: pointer;
+	/* "hand" cursor */
+}
+
 	input[type="submit"],
 	input[type="reset"],
 	input[type="button"],
@@ -2003,7 +2049,7 @@ input, select, textarea {
 	.button {
 		background-color: transparent;
 		box-shadow: inset 0 0 0 1px #000000;
-		color: #000000 !important;
+		color: rgb(0, 0, 0) !important;
 	}
 
 		input[type="submit"]:hover,
@@ -2031,9 +2077,11 @@ input, select, textarea {
 			background-color: #0b455e;
 			background-image: url("../../images/overlay.png"), linear-gradient(45deg, rgba(245, 74, 111, 0), #2DC0C4 80%);
 			background-size: auto, auto;
+			background-image: url("../../images/overlay.png"), linear-gradient(45deg, rgba(245, 74, 111, 0), #EBF8FF 80%);
 			background-repeat: repeat, no-repeat;
 			box-shadow: 0 0.5rem 1.75rem 0 rgba(0, 0, 0, 0.25);
 			color: white !important;
+
 		}
 
 			input[type="submit"].primary:hover,
@@ -2271,6 +2319,7 @@ input, select, textarea {
 		background-color: #0b455e;
 		background-image: url("../../images/overlay.png"), linear-gradient(45deg, rgba(245, 74, 111, 0), #2DC0C4 80%);
 		background-size: auto, auto;
+		background-image: url("../../images/overlay.png"), linear-gradient(45deg, rgba(245, 74, 111, 0), #EBF8FF 80%);
 		background-repeat: repeat, no-repeat;
 		border-color: #fa9e3e;
 		color: #ffffff;
@@ -2830,7 +2879,7 @@ input, select, textarea {
 				background: #ffffff;
 			}
 
-			.wrapper.style2 .box {
+			.wrapper.style2 .box, .wrapper.style3 {
 				border-color: #ffffff;
 			}
 
@@ -2893,14 +2942,14 @@ input, select, textarea {
 				color: #ffffff;
 			}
 
-			.wrapper.style2 input[type="text"],
-			.wrapper.style2 input[type="password"],
-			.wrapper.style2 input[type="email"],
-			.wrapper.style2 input[type="tel"],
-			.wrapper.style2 input[type="search"],
-			.wrapper.style2 input[type="url"],
-			.wrapper.style2 select,
-			.wrapper.style2 textarea {
+			.wrapper.style2 input[type="text"], .wrapper.style3 input[type="text"],
+			.wrapper.style2 input[type="password"], .wrapper.style3 input[type="password"],
+			.wrapper.style2 input[type="email"], .wrapper.style3 input[type="email"],
+			.wrapper.style2 input[type="tel"], .wrapper.style3 input[type="tel"],
+			.wrapper.style2 input[type="search"], .wrapper.style3 input[type="search"],
+			.wrapper.style2 input[type="url"], .wrapper.style3 input[type="url"],
+			.wrapper.style2 select, .wrapper.style3 select,
+			.wrapper.style2 textarea, .wrapper.style3 textarea {
 				border-color: #ffffff;
 			}
 
@@ -2911,7 +2960,15 @@ input, select, textarea {
 				.wrapper.style2 input[type="search"]:focus,
 				.wrapper.style2 input[type="url"]:focus,
 				.wrapper.style2 select:focus,
-				.wrapper.style2 textarea:focus {
+				.wrapper.style2 textarea:focus,
+				.wrapper.style3 input[type="text"]:focus,
+				.wrapper.style3 input[type="password"]:focus,
+				.wrapper.style3 input[type="email"]:focus,
+				.wrapper.style3 input[type="tel"]:focus,
+				.wrapper.style3 input[type="search"]:focus,
+				.wrapper.style3 input[type="url"]:focus,
+				.wrapper.style3 select:focus,
+				.wrapper.style3 textarea:focus {
 					border-color: #ffffff;
 					box-shadow: 0 0 0 1px #ffffff;
 				}
@@ -2948,27 +3005,27 @@ input, select, textarea {
 				box-shadow: 0 0 0 1px #ffffff;
 			}
 
-			.wrapper.style2 ::-webkit-input-placeholder {
+			.wrapper.style2 ::-webkit-input-placeholder, .wrapper.style3 ::-webkit-input-placeholder {
 				color: rgba(255, 255, 255, 0.5) !important;
 			}
 
-			.wrapper.style2 :-moz-placeholder {
+			.wrapper.style2 :-moz-placeholder, .wrapper.style3 :-moz-placeholder {
 				color: rgba(255, 255, 255, 0.5) !important;
 			}
 
-			.wrapper.style2 ::-moz-placeholder {
+			.wrapper.style2 ::-moz-placeholder, .wrapper.style3 ::-moz-placeholder {
 				color: rgba(255, 255, 255, 0.5) !important;
 			}
 
-			.wrapper.style2 :-ms-input-placeholder {
+			.wrapper.style2 :-ms-input-placeholder, .wrapper.style3 :-ms-input-placeholder {
 				color: rgba(255, 255, 255, 0.5) !important;
 			}
 
-			.wrapper.style2 ul.alt li {
+			.wrapper.style2 ul.alt li, .wrapper.style3 ul.alt li {
 				border-top-color: #ffffff;
 			}
 
-			.wrapper.style2 table tbody tr {
+			.wrapper.style2 table tbody tr, .wrapper.style3 table tbody tr {
 				border-color: #ffffff;
 			}
 
@@ -3592,6 +3649,7 @@ input, select, textarea {
 				background-color: #0b455e;
 				background-image: url("../../images/overlay.png"), linear-gradient(45deg, rgba(245, 74, 111, 0), #2DC0C4 80%);
 				background-size: auto, auto;
+				background-image: url("../../images/overlay.png"), linear-gradient(45deg, rgba(245, 74, 111, 0), #EBF8FF 80%);
 				background-repeat: repeat, no-repeat;
 				box-shadow: 0 0.5rem 1.75rem 0 rgba(0, 0, 0, 0.25);
 				color: white !important;
@@ -4082,6 +4140,13 @@ input, select, textarea {
 				padding-left: 0;
 			}
 
+			#nav > ul > li:nth-child(5) > a {
+				background-color: #0b455e;
+				box-sizing: border-box;
+			}
+
+			
+
 			/* Float */
 			/* #nav > ul > li {
 				display: inline-block;
@@ -4538,3 +4603,7 @@ input, select, textarea {
 		box-shadow: 0 0 6rem 0 rgba(0, 0, 0, 0.125);
 		visibility: visible;
 	}
+
+.margin-0 {
+	margin: 0;
+}
