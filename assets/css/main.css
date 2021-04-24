@@ -3887,6 +3887,10 @@ input, select, textarea {
 				display: none;
 			}
 
+			#banner .bannerbr {
+				display: inline-block;
+			}
+
 		}
 
 /* Header */
