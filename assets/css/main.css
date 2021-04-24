@@ -2444,6 +2444,10 @@ input, select, textarea {
 
 /* Image */
 
+	.d-inline-block {
+    	display: inline-block !important;
+	}
+
 	.image {
 		border-radius: 6px;
 		border: 0;
