@@ -71,7 +71,7 @@
 
 
 				<!-- Banner -->
-					<section id="banner">
+					<section id="banner" class="banner">
 						<div class="content">
 							<header class="major special">
 								<h1>Digital profitability is a tough trek. <br class="bannerbr"><br class="bannerbr"> We’ll help you get there.</h1>
@@ -209,6 +209,28 @@
 	<script src="assets/js/breakpoints.min.js"></script>
 	<script src="assets/js/util.js"></script>
 	<script src="assets/js/main.js"></script>
+	<script src="assets/js/modernizr-custom.js"></script>	
+
+<!--<script>
+/*
+  Check webp support
+ */
+
+ if (Modernizr.webp) {
+    console.log('webp supported');
+} else {
+    console.log('webp not supported');
+}
+	</script>-->
+	<script>
+		Modernizr.on('webp', function (result) {
+		  if (result) {
+			// supported
+		  } else {
+			// not-supported
+		  }
+		});
+	  </script>
 
 </body>
 
