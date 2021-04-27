@@ -441,6 +441,13 @@ input, select, textarea {
 		background-repeat: repeat, no-repeat;
 	}
 
+	.jpeg2000 header.major h1:after, header.major h2:after, header.major h3:after, header.major h4:after, header.major h5:after, header.major h6:after {
+		background-color: #0b455e;
+		background-image: url("../../images/overlay_jp2.jp2"), linear-gradient(270deg, rgba(245, 74, 111, 0), #2DC0C4 90%);
+		background-size: auto, auto;
+		background-repeat: repeat, no-repeat;
+	}
+
 	.no-webp header.major h1:after, header.major h2:after, header.major h3:after, header.major h4:after, header.major h5:after, header.major h6:after {
 		background-color: #0b455e;
 		background-image: url("../../images/overlay.png"), linear-gradient(270deg, rgba(245, 74, 111, 0), #2DC0C4 90%);
@@ -2097,6 +2104,20 @@ input, select, textarea {
 
 		}
 
+		.jpeg2000 input[type="submit"].primary,
+		.jpeg2000 input[type="reset"].primary,
+		.jpeg2000 input[type="button"].primary,
+		.jpeg2000 button.primary,
+		.jpeg2000 .button.primary {
+			background-color: #0b455e;
+			background-image: url("../../images/overlay_jp2.jp2"), linear-gradient(225deg, rgba(245, 74, 111, 0), #2DC0C4 80%);
+			background-size: auto, auto;
+			background-repeat: repeat, no-repeat;
+			box-shadow: 0 0.5rem 1.75rem 0 rgba(0, 0, 0, 0.25);
+			color: white !important;
+
+		}
+
 		.webp input[type="submit"].primary,
 		.webp input[type="reset"].primary,
 		.webp input[type="button"].primary,
@@ -2350,9 +2371,19 @@ input, select, textarea {
 		border-color: #fa9e3e;
 		color: #ffffff;
 	}
+
+	.jpeg2000 input[type="checkbox"]:checked + label:before,
+	.jpeg2000 input[type="radio"]:checked + label:before {
+		background-color: #0b455e;
+		background-image: url("../../images/overlay_jp2.jp2"), linear-gradient(225deg, rgba(245, 74, 111, 0), #2DC0C4 80%);
+		background-size: auto, auto;
+		background-repeat: repeat, no-repeat;
+		border-color: #fa9e3e;
+		color: #ffffff;
+	}
 	
 	.no-webp input[type="checkbox"]:checked + label:before,
-	.bo-webp input[type="radio"]:checked + label:before {
+	.no-webp input[type="radio"]:checked + label:before {
 		background-color: #0b455e;
 		background-image: url("../../images/overlay.png"), linear-gradient(225deg, rgba(245, 74, 111, 0), #2DC0C4 80%);
 		background-size: auto, auto;
@@ -2891,6 +2922,15 @@ input, select, textarea {
 			background-repeat: repeat, no-repeat;
 		}
 
+		.jpeg2000 .wrapper.style2 {
+			background-color: #3a3a3a;
+			color: #ffffff;
+			background-color: #0b455e;
+			background-image: url("../../images/overlay_jp2.jp2"), linear-gradient(225deg, rgba(245, 74, 111, 0), #2DC0C4 80%);
+			background-size: auto, auto;
+			background-repeat: repeat, no-repeat;
+		}
+
 		.no-webp .wrapper.style2 {
 			background-color: #3a3a3a;
 			color: #ffffff;
@@ -2907,7 +2947,15 @@ input, select, textarea {
 			background-image: url("../../images/overlay_webp.webp"), linear-gradient(225deg, rgba(245, 171, 74, 0), #d1c9be 80%);
 			background-size: auto, auto;
 			background-repeat: repeat, no-repeat;
-			;
+		}
+
+		.jpeg2000 .wrapper.style3 {
+			background-color: #3a3a3a;
+			color: #ffffff;
+			background-color: #fa9e3e;
+			background-image: url("../../images/overlay_jp2.jp2"), linear-gradient(225deg, rgba(245, 171, 74, 0), #d1c9be 80%);
+			background-size: auto, auto;
+			background-repeat: repeat, no-repeat;
 		}
 
 		.no-webp .wrapper.style3 {
@@ -2917,7 +2965,6 @@ input, select, textarea {
 			background-image: url("../../images/overlay.png"), linear-gradient(225deg, rgba(245, 171, 74, 0), #d1c9be 80%);
 			background-size: auto, auto;
 			background-repeat: repeat, no-repeat;
-			;
 		}
 
 			.wrapper.style2 input, .wrapper.style2 select, .wrapper.style2 textarea, .wrapper.style3 input, .wrapper.style3 select, .wrapper.style3 textarea {
@@ -2990,6 +3037,19 @@ input, select, textarea {
 				.webp .wrapper.style2 .button.primary {
 					background-color: #0b455e;
 					background-image: url("../../images/overlay_webp.webp"), linear-gradient(225deg, rgba(245, 74, 111, 0), #2DC0C4 80%);
+					background-size: auto, auto;
+					background-repeat: repeat, no-repeat;
+					box-shadow: 0 0.5rem 1.75rem 0 rgba(0, 0, 0, 0.25);
+					color: #ffffff !important;
+				}
+
+				.jpeg2000 .wrapper.style2 input[type="submit"].primary,
+				.jpeg2000 .wrapper.style2 input[type="reset"].primary,
+				.jpeg2000 .wrapper.style2 input[type="button"].primary,
+				.jpeg2000 .wrapper.style2 button.primary,
+				.jpeg2000 .wrapper.style2 .button.primary {
+					background-color: #0b455e;
+					background-image: url("../../images/overlay_jp2.jp2"), linear-gradient(225deg, rgba(245, 74, 111, 0), #2DC0C4 80%);
 					background-size: auto, auto;
 					background-repeat: repeat, no-repeat;
 					box-shadow: 0 0.5rem 1.75rem 0 rgba(0, 0, 0, 0.25);
@@ -3597,6 +3657,28 @@ input, select, textarea {
 					z-index: 5;
 			}
 
+			.jpeg2000 #videoButton {
+				background-color: #0b455e;
+				background-image: url("../../images/overlay_jp2.jp2"), linear-gradient(225deg, rgba(245, 74, 111, 0), #2DC0C4 80%);
+				background-size: auto, auto;
+				background-repeat: repeat, no-repeat;
+				border: medium none;
+				border-radius: 100%;
+				color: #fff;
+				display: block;
+				font-size: 18px;
+				left: 0;
+				margin: 0 auto;
+				padding: 8px 16px;
+				position: absolute;
+				right: 0;
+				/* top: 40%; */
+				height: 6rem;
+				width: 6rem;
+				cursor: pointer;
+				z-index: 5;
+		}
+
 			.no-webp #videoButton {
 				background-color: #0b455e;
 				background-image: url("../../images/overlay.png"), linear-gradient(225deg, rgba(245, 74, 111, 0), #2DC0C4 80%);
@@ -3768,6 +3850,34 @@ input, select, textarea {
 		z-index: 5;
 	}
 
+	.jpeg2000 #banner {
+		background-color: #3a3a3a;
+		color: #ffffff;
+		padding-bottom: 7.25rem;
+		padding: 10rem 0 8rem 0 ;
+		-moz-align-items: center;
+		-webkit-align-items: center;
+		-ms-align-items: center;
+		align-items: center;
+		display: -moz-flex;
+		display: -webkit-flex;
+		display: -ms-flex;
+		display: flex;
+		-moz-justify-content: center;
+		-webkit-justify-content: center;
+		-ms-justify-content: center;
+		justify-content: center;
+		background-attachment: fixed, scroll;
+		background-image: linear-gradient(270deg, rgba(58, 58, 58, 0.6), rgba(58, 58, 58, 0.6)), url("../../images/beach_banner_jp2.jp2");
+		background-position: center, center;
+		background-repeat: repeat, no-repeat;
+		background-size: auto, cover;
+		min-height: calc(75vh + 7rem);
+		position: relative;
+		text-align: center;
+		z-index: 5;
+	}
+
 	.no-webp #banner {
 		background-color: #3a3a3a;
 		color: #ffffff;
@@ -3829,6 +3939,19 @@ input, select, textarea {
 			.webp #banner .button.primary {
 				background-color: #0b455e;
 				background-image: url("../../images/overlay_webp.webp"), linear-gradient(225deg, rgba(245, 74, 111, 0), #2DC0C4 80%);
+				background-size: auto, auto;
+				background-repeat: repeat, no-repeat;
+				box-shadow: 0 0.5rem 1.75rem 0 rgba(0, 0, 0, 0.25);
+				color: white !important;
+			}
+
+			.jpeg2000 #banner input[type="submit"].primary,
+			.jpeg2000 #banner input[type="reset"].primary,
+			.jpeg2000 #banner input[type="button"].primary,
+			.jpeg2000 #banner button.primary,
+			.jpeg2000 #banner .button.primary {
+				background-color: #0b455e;
+				background-image: url("../../images/overlay_jp2.jp2"), linear-gradient(225deg, rgba(245, 74, 111, 0), #2DC0C4 80%);
 				background-size: auto, auto;
 				background-repeat: repeat, no-repeat;
 				box-shadow: 0 0.5rem 1.75rem 0 rgba(0, 0, 0, 0.25);
@@ -4131,6 +4254,38 @@ input, select, textarea {
 		font-weight: 500;
 	}
 
+	.jpeg2000 #header {
+		background-color: #3a3a3a;
+		color: #ffffff;
+		background-color: #0b455e;
+		background-image: url("../../images/overlay_jp2.jp2"), linear-gradient(270deg, rgba(245, 74, 111, 0),#2DC0C4 90%);
+		background-size: auto, auto;
+		background-repeat: repeat, no-repeat;
+		-moz-align-items: center;
+		-webkit-align-items: center;
+		-ms-align-items: center;
+		align-items: center;
+		display: -moz-flex;
+		display: -webkit-flex;
+		display: -ms-flex;
+		display: flex;
+		-moz-justify-content: space-between;
+		-webkit-justify-content: space-between;
+		-ms-justify-content: space-between;
+		justify-content: space-between;
+		box-shadow: 0 0.075rem 1rem 0 rgba(0, 0, 0, 0.125);
+		height: 3.5rem;
+		left: 0;
+		line-height: 3.5rem;
+		padding: 0 1.5rem;
+		position: fixed;
+		top: 0;
+		width: 100%;
+		z-index: 10000;
+		font-family: "Bitter", Helvetica, serif;
+		font-weight: 500;
+	}
+
 	.no-webp #header {
 		background-color: #3a3a3a;
 		color: #ffffff;
@@ -4252,6 +4407,21 @@ input, select, textarea {
 			.webp #header.alt:before {
 				background-color: #0b455e;
 				background-image: url("../../images/overlay_webp.webp"), linear-gradient(270deg, rgba(245, 74, 111, 0),#2DC0C4 90%);
+				background-size: auto, auto;
+				background-repeat: repeat, no-repeat;
+				content: '';
+				display: block;
+				height: 0.75rem;
+				left: 0;
+				position: absolute;
+				top: 0;
+				width: 100%;
+				color: black;
+			}
+
+			.jpeg2000 #header.alt:before {
+				background-color: #0b455e;
+				background-image: url("../../images/overlay_jp2.jp2"), linear-gradient(270deg, rgba(245, 74, 111, 0),#2DC0C4 90%);
 				background-size: auto, auto;
 				background-repeat: repeat, no-repeat;
 				content: '';
@@ -4744,6 +4914,33 @@ input, select, textarea {
 	.webp #navPanel {
 		background-color: #0b455e;
 		background-image: url("../../images/overlay_webp.webp"), linear-gradient(225deg, rgba(245, 74, 111, 0)#2DC0C4 80%);
+		background-size: auto, auto;
+		background-repeat: repeat, no-repeat;
+		-moz-transform: translateX(20rem);
+		-webkit-transform: translateX(20rem);
+		-ms-transform: translateX(20rem);
+		transform: translateX(20rem);
+		-moz-transition: -moz-transform 0.5s ease 0s, box-shadow 0.5s ease 0s, visibility 0.5s 0s;
+		-webkit-transition: -webkit-transform 0.5s ease 0s, box-shadow 0.5s ease 0s, visibility 0.5s 0s;
+		-ms-transition: -ms-transform 0.5s ease 0s, box-shadow 0.5s ease 0s, visibility 0.5s 0s;
+		transition: transform 0.5s ease 0s, box-shadow 0.5s ease 0s, visibility 0.5s 0s;
+		-webkit-overflow-scrolling: touch;
+		box-shadow: none;
+		color: #000000;
+		height: 100%;
+		max-width: 80%;
+		overflow-y: auto;
+		position: fixed;
+		right: 0;
+		top: 0;
+		visibility: hidden;
+		width: 20rem;
+		z-index: 10002;
+	}
+
+	.jpeg2000 #navPanel {
+		background-color: #0b455e;
+		background-image: url("../../images/overlay_jp2.jp2"), linear-gradient(225deg, rgba(245, 74, 111, 0)#2DC0C4 80%);
 		background-size: auto, auto;
 		background-repeat: repeat, no-repeat;
 		-moz-transform: translateX(20rem);
