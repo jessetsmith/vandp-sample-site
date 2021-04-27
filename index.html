@@ -15,7 +15,7 @@
 	<link rel="stylesheet" href="assets/css/main.css" />
 	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 	<!-- Favicon -->
-	<link rel="icon" href="./images/V&P_Logo7_Vector-01.svg" type="image/x-icon" />
+	<!-- <link rel="icon" href="./images/V&P_Logo7_Vector-01.svg" type="image/x-icon" /> -->
 	<link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
 	<link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
 	<link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
@@ -211,19 +211,10 @@
 	<script src="assets/js/main.js"></script>
 	<script src="assets/js/modernizr-custom.js"></script>	
 
-<!--<script>
-/*
-  Check webp support
- */
+	
 
- if (Modernizr.webp) {
-    console.log('webp supported');
-} else {
-    console.log('webp not supported');
-}
-	</script>-->
 	<script>
-		Modernizr.on('webp', function (result) {
+		Modernizr.on('webp', 'jpeg2000', function (result) {
 		  if (result) {
 			// supported
 		  } else {
@@ -231,6 +222,17 @@
 		  }
 		});
 	  </script>
+
+<!--<script>
+	Modernizr.on('jpeg2000', function (result) {
+	if (result) {
+		// supported
+	} else {
+		// not-supported
+	}
+	});
+</script>-->
+
 
 </body>
 
