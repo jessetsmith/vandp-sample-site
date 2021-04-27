@@ -328,6 +328,12 @@ input, select, textarea {
 			width: 80%;
 		}
 	}
+
+	/* @media screen and (max-width: 550px) {
+		#banner {
+			padding: 1em;
+		}
+	} */
 	
 	@media screen and (max-width: 480px) {
 		#banner video {
@@ -4001,6 +4007,15 @@ input, select, textarea {
 			}
 
 		}
+
+		@media screen and (max-width: 550px) {
+
+			#banner .content{
+				padding: 2rem;
+			}
+
+		}
+
 
 		@media screen and (max-width: 480px) {
 
