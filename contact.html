@@ -22,9 +22,22 @@
 	<meta name="msapplication-TileColor" content="#0b455e">
 	<meta name="theme-color" content="#ffffff">
 	<script type="text/javascript">
-  window.heap=window.heap||[],heap.load=function(e,t){window.heap.appid=e,window.heap.config=t=t||{};var r=document.createElement("script");r.type="text/javascript",r.async=!0,r.src="https://cdn.heapanalytics.com/js/heap-"+e+".js";var a=document.getElementsByTagName("script")[0];a.parentNode.insertBefore(r,a);for(var n=function(e){return function(){heap.push([e].concat(Array.prototype.slice.call(arguments,0)))}},p=["addEventProperties","addUserProperties","clearEventProperties","identify","resetIdentity","removeEventProperty","setEventProperties","track","unsetEventProperty"],o=0;o<p.length;o++)heap[p[o]]=n(p[o])};
-  heap.load("2460975239");
-</script>
+		window.heap = window.heap || [], heap.load = function (e, t) {
+			window.heap.appid = e, window.heap.config = t = t || {};
+			var r = document.createElement("script");
+			r.type = "text/javascript", r.async = !0, r.src = "https://cdn.heapanalytics.com/js/heap-" + e + ".js";
+			var a = document.getElementsByTagName("script")[0];
+			a.parentNode.insertBefore(r, a);
+			for (var n = function (e) {
+					return function () {
+						heap.push([e].concat(Array.prototype.slice.call(arguments, 0)))
+					}
+				}, p = ["addEventProperties", "addUserProperties", "clearEventProperties", "identify",
+					"resetIdentity", "removeEventProperty", "setEventProperties", "track", "unsetEventProperty"
+				], o = 0; o < p.length; o++) heap[p[o]] = n(p[o])
+		};
+		heap.load("2460975239");
+	</script>
 </head>
 
 <body class="is-preload">
@@ -36,7 +49,8 @@
 		<section id="header">
 
 			<!-- Logo -->
-			<a href="https://vandpdigital.com/" class="logo"><img id="logoImg" src="./images/V&P_Logo7_Vector-01.svg"/><strong>Vida & Partners DIGITAL</strong></a>
+			<a href="https://vandpdigital.com/" class="logo"><img id="logoImg"
+					src="./images/V&P_Logo7_Vector-01.svg" /><strong>Vida & Partners DIGITAL</strong></a>
 
 			<!-- Nav -->
 			<nav id="nav">
@@ -77,13 +91,14 @@
 					<h3>We’re a crew that climbs with yours.</h3>
 				</header>
 				<div class="row">
-					<form method="post" action="https://formspree.io/f/xayankrg" class="alt" method="post">
+					<form method="post" action="https://formspree.io/f/xayankrg" class="alt">
 						<div class="row gtr-uniform">
 							<div class="col-6 col-12-xsmall">
-								<input type="text" name="name" id="name" value="" placeholder="Full Name" required/>
+								<input type="text" name="name" id="name" value="" placeholder="Full Name" required />
 							</div>
 							<div class="col-6 col-12-xsmall">
-								<input type="email" name="email" id="email" value="" placeholder="Email Address" required/>
+								<input type="email" name="email" id="email" value="" placeholder="Email Address"
+									required />
 							</div>
 							<!-- Break -->
 							<div class="col-12">
@@ -122,7 +137,10 @@
 							<!-- Break -->
 							<div class="col-12">
 								<ul class="actions">
-									<li><input type="submit" value="Send Message" /></li>
+									<li><input type="submit" value="Submit and See Calendar"></li>
+									<input type="hidden" name="_next" value="www.vandpdigital.com/calendly" />
+									<!--<li><a href="./calendly.html" style="border-bottom: none;"><input type="button"
+												value="Book an Appointment"></a></li>-->
 								</ul>
 							</div>
 						</div>
@@ -134,16 +152,16 @@
 		<!-- Footer -->
 		<section id="footer">
 			<ul class="icons">
-				<li><a href="https://twitter.com/VidaAndPartners" target="_blank" class="icon alt brands fa-twitter"><span
-							class="label">Twitter</span></a></li>
-				<li><a href="https://www.facebook.com/vandpdigital" target="_blank" class="icon alt brands fa-facebook-f"><span
-							class="label">Facebook</span></a></li>
-				<li><a href="https://www.instagram.com/vandpdigital/" target="_blank" class="icon alt brands fa-instagram"><span
-							class="label">Instagram</span></a></li>
+				<li><a href="https://twitter.com/VidaAndPartners" target="_blank"
+						class="icon alt brands fa-twitter"><span class="label">Twitter</span></a></li>
+				<li><a href="https://www.facebook.com/vandpdigital" target="_blank"
+						class="icon alt brands fa-facebook-f"><span class="label">Facebook</span></a></li>
+				<li><a href="https://www.instagram.com/vandpdigital/" target="_blank"
+						class="icon alt brands fa-instagram"><span class="label">Instagram</span></a></li>
 				<!-- Currently not working-->
 				<!--<li><a href="https://www.tiktok.com/@vidaandpartnersdigital" class="icon alt brands fa-tiktok"><span class="label">TikTok</span></a></li>-->
-				<li><a href="https://www.linkedin.com/company/vida-and-partners-digital/"
-					target="_blank" class="icon alt brands fa-linkedin"><span class="label">Linkedin</span></a></li>
+				<li><a href="https://www.linkedin.com/company/vida-and-partners-digital/" target="_blank"
+						class="icon alt brands fa-linkedin"><span class="label">Linkedin</span></a></li>
 				<li><a href="tel:317-473-6116" class="icon alt solid fa-phone"><span class="label">Phone</span></a></li>
 			</ul>
 			<p class="copyright">
@@ -165,5 +183,6 @@
 	<script src="assets/js/jquery.custom-file-input.js"></script>
 	<script src="assets/js/modernizr-custom.js"></script>
 
-	</body>
+</body>
+
 </html>
