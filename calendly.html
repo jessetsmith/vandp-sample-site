@@ -1,13 +1,8 @@
 <!DOCTYPE HTML>
-<!--
-	Hyperbolic by Pixelarity
-	pixelarity.com | hello@pixelarity.com
-	License: pixelarity.com/license
--->
-<html>
+<html lang="en-US">
 
 <head>
-	<title>V&P Digital | Contact</title>
+	<title>V&P Digital | Calendly</title>
 	<meta charset="utf-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 	<meta name="description" content="" />
@@ -56,23 +51,6 @@
 			<nav id="nav">
 				<ul id="nav-items">
 					<li><a href="https://vandpdigital.com/">Home</a></li>
-					<!-- <li> -->
-					<!-- <a href="#" class="icon solid fa-angle-down">Services</a>
-									<ul>
-										<li><a href="#">Option One</a></li>
-										<li><a href="#">Option Two</a></li>
-										<li><a href="#">Option Three</a></li>
-										<li>
-											<a href="#">Submenu</a>
-											<ul>
-												<li><a href="#">Option One</a></li>
-												<li><a href="#">Option Two</a></li>
-												<li><a href="#">Option Three</a></li>
-												<li><a href="#">Option Four</a></li>
-											</ul>
-										</li>
-									</ul>
-								</li> -->
 					<li><a href="https://vandpdigital.com/services">Services</a></li>
 					<li><a href="https://vandpdigital.com/about">About</a></li>
 					<li><a href="https://vandpdigital.com/team">Team</a></li>
@@ -87,64 +65,16 @@
 		<section class="wrapper style1">
 			<div class="inner">
 				<header class="major special">
-					<h1>Contact Us</h1>
-					<h3>We’re a crew that climbs with yours.</h3>
+					<h1>Schedule a Meeting</h1>
+					<h3>Please select a time to tell us about your journey..</h3>
 				</header>
-				<div class="row">
-					<form method="post" action="https://formspree.io/f/xayankrg" class="alt">
-						<div class="row gtr-uniform">
-							<div class="col-6 col-12-xsmall">
-								<input type="text" name="name" id="name" value="" placeholder="Full Name" required />
-							</div>
-							<div class="col-6 col-12-xsmall">
-								<input type="email" name="email" id="email" value="" placeholder="Email Address"
-									required />
-							</div>
-							<!-- Break -->
-							<div class="col-12">
-								<select name="category" id="dcategory" required>
-									<option value="" disabled selected>- What services are you interested in? -
-									</option>
-									<option value="Ads">Ads</option>
-									<option value="Web Development">Web Development (new website or web edits)
-									</option>
-									<option value="Web Managment">Web Management</option>
-									<option value="Marketing Funnels">Marketing Funnels</option>
-									<option value="Digital Asset Management">Digital Asset Management</option>
-									<option value="Building a Brand">Building a Brand</option>
-									<option value="Other">Other</option>
-								</select>
-							</div>
-							<!-- Break -->
-
-							<!-- Break -->
-							<div class="col-12">
-								<textarea name="message" id="message" placeholder="Enter your message"
-									rows="6 required"></textarea>
-							</div>
-
-							<!-- Break -->
-							<div class="row gtr-uniform">
-								<div class="col-12">
-									<h5>Upload your RPF File here ... </h5>
-									<input type="file" name="file" id="file" class="inputfile"
-										data-multiple-caption="{count} files selected" multiple
-										accept=".doc,.docx,.pdf,.pptx" />
-									<label class="button small solid icon fa-download" for="file"><span>Choose a
-											file</span></label>
-								</div>
-							</div>
-							<!-- Break -->
-							<div class="col-12">
-								<ul class="actions">
-									<li><input type="submit" value="Submit and See Calendar"></li>
-									<input type="hidden" name="_next" value="https://www.vandpdigital.com/calendly" />
-									<!--<li><a href="./calendly.html" style="border-bottom: none;"><input type="button"
-												value="Book an Appointment"></a></li>-->
-								</ul>
-							</div>
-						</div>
-					</form>
+				<div class="row col-12">
+					<!-- Calendly inline widget begin -->
+					<div class="calendly-inline-widget" data-url="https://calendly.com/eli-vandp"
+						style="min-width:100%;height:1000px;"></div>
+					<script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js" async>
+					</script>
+					<!-- Calendly inline widget end -->
 				</div>
 			</div>
 		</section>
