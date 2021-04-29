@@ -4677,7 +4677,7 @@ input, select, textarea {
 							margin-right: 0.5rem;
 						}
 
-				#nav > ul > li.current a, #nav > ul > li.current span {
+				#nav > ul > li.current a, #nav > ul > li.current span, #permanent-bubble {
 					background-color:  rgba(255, 255, 255, 0.337) ;
 				}
  
