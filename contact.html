@@ -56,29 +56,17 @@
 			<nav id="nav">
 				<ul id="nav-items">
 					<li><a href="https://vandpdigital.com/">Home</a></li>
-					<!-- <li> -->
-					<!-- <a href="#" class="icon solid fa-angle-down">Services</a>
-									<ul>
-										<li><a href="#">Option One</a></li>
-										<li><a href="#">Option Two</a></li>
-										<li><a href="#">Option Three</a></li>
-										<li>
-											<a href="#">Submenu</a>
-											<ul>
-												<li><a href="#">Option One</a></li>
-												<li><a href="#">Option Two</a></li>
-												<li><a href="#">Option Three</a></li>
-												<li><a href="#">Option Four</a></li>
-											</ul>
-										</li>
-									</ul>
-								</li> -->
 					<li><a href="https://vandpdigital.com/services">Services</a></li>
 					<li><a href="https://vandpdigital.com/about">About</a></li>
 					<li><a href="https://vandpdigital.com/team">Team</a></li>
-					<li class="current"><a href="https://vandpdigital.com/contact">Contact</a></li>
-
-
+					<li>
+						<a href="https://vandpdigital.com/contact" class="icon solid fa-angle-down" id="permanent-bubble">Contact Us</a>
+							<ul>
+								<li><a href="https://vandpdigital.com/calendly">Schedule an Appointment</a></li>
+								<li><a href="https://vandpdigital.com/contact">Email Us</a></li>
+								<!-- <li><a href="#">Option Three</a></li>(Will become Info such as Phone number, address to mail to etc) -->
+							</ul>
+					</li>
 				</ul>
 			</nav>
 
@@ -91,7 +79,7 @@
 					<h3>We’re a crew that climbs with yours.</h3>
 				</header>
 				<div class="row">
-					<form method="post" action="https://formspree.io/f/xayankrg" class="alt">
+					<form method="post" action="https://formspree.io/f/xayankrg" enctype="multipart/form-data" class="alt">
 						<div class="row gtr-uniform">
 							<div class="col-6 col-12-xsmall">
 								<input type="text" name="name" id="name" value="" placeholder="Full Name" required />
@@ -127,7 +115,7 @@
 							<div class="row gtr-uniform">
 								<div class="col-12">
 									<h5>Upload your RPF File here ... </h5>
-									<input type="file" name="file" id="file" class="inputfile"
+									<input type="file" name="upload" id="file" class="inputfile"
 										data-multiple-caption="{count} files selected" multiple
 										accept=".doc,.docx,.pdf,.pptx" />
 									<label class="button small solid icon fa-download" for="file"><span>Choose a
