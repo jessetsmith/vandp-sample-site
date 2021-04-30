@@ -5018,6 +5018,13 @@ input, select, textarea {
 				font-weight: 400;
 			}
 
+			/* Fix for Sidebar Menu Indented Dropdown info color being black. Change color to white as an overwrite */
+
+			#navPanel .link.depth-1 {
+				color: #ffffff !important;
+				font-weight: 400;
+			}
+
 			#navPanel .link:active, #navPanel .link:focus, #navPanel .link:hover {
 				color: #ffffff !important;
 			}
