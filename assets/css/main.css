@@ -188,6 +188,7 @@ input, select, textarea {
 		margin: 0 0 1.5rem 0;
 		/* text-transform: uppercase; */
 		font-family: "Bitter", Helvetica, serif;
+		font-display: swap;
 		font-weight: bold;
 	}
 
@@ -282,7 +283,8 @@ input, select, textarea {
 
 	pre {
 		-webkit-overflow-scrolling: touch;
-		font-family: "Courier New", monospace;
+		font-family: "Bitter", helvetica, sans-serif;
+		font-display: swap;
 		font-size: 0.9rem;
 		margin: 0 0 2rem 0;
 	}
@@ -2000,6 +2002,7 @@ input, select, textarea {
 		font-size: 0.9rem;
 		border-radius: 3.5rem;
 		font-family: "Bitter", Helvetica, serif;
+		font-display: swap;
 		font-weight: bold;
 	}
 		
@@ -2268,6 +2271,7 @@ input, select, textarea {
 				line-height: 1;
 				text-transform: none !important;
 				font-family: 'Font Awesome 5 Free';
+				font-display: swap;
 				font-weight: 900;
 			}
 
@@ -2433,6 +2437,7 @@ input, select, textarea {
 			line-height: 1;
 			text-transform: none !important;
 			font-family: 'Font Awesome 5 Free';
+			font-display: swap;
 			font-weight: 400;
 		}
 
@@ -2460,6 +2465,7 @@ input, select, textarea {
 
 		.icon.brands:before {
 			font-family: 'Font Awesome 5 Brands';
+			font-display: swap;
 		}
 
 		.icon.major {
@@ -4251,6 +4257,7 @@ input, select, textarea {
 		width: 100%;
 		z-index: 10000;
 		font-family: "Bitter", Helvetica, serif;
+		font-display: swap;
 		font-weight: 500;
 	}
 
@@ -4283,6 +4290,7 @@ input, select, textarea {
 		width: 100%;
 		z-index: 10000;
 		font-family: "Bitter", Helvetica, serif;
+		font-display: swap;
 		font-weight: 500;
 	}
 
@@ -4315,6 +4323,7 @@ input, select, textarea {
 		width: 100%;
 		z-index: 10000;
 		font-family: "Bitter", Helvetica, serif;
+		font-display: swap;
 		font-weight: 500;
 	}
 
@@ -4487,6 +4496,7 @@ input, select, textarea {
 				line-height: 1;
 				text-transform: none !important;
 				font-family: 'Font Awesome 5 Free';
+				font-display: swap;
 				font-weight: 900;
 			}
 
@@ -4572,6 +4582,7 @@ input, select, textarea {
 			margin: 0;
 			padding-left: 0;
 			font-family: "Bitter", Helvetica, serif;
+			font-display: swap;
 			font-weight: light;
 		}
 
@@ -5018,6 +5029,13 @@ input, select, textarea {
 				font-weight: 400;
 			}
 
+			/* Fix for Sidebar Menu Indented Dropdown info color being black. Change color to white as an overwrite */
+
+			#navPanel .link.depth-1 {
+				color: #ffffff !important;
+				font-weight: 400;
+			}
+
 			#navPanel .link:active, #navPanel .link:focus, #navPanel .link:hover {
 				color: #ffffff !important;
 			}
@@ -5064,6 +5082,7 @@ input, select, textarea {
 				line-height: 1;
 				text-transform: none !important;
 				font-family: 'Font Awesome 5 Free';
+				font-display: swap;
 				font-weight: 900;
 			}
 
