@@ -142,6 +142,8 @@
 
 })(jQuery);
 
+// Video Play Button Function
+
 const playButton = document.getElementById("videoButton");
 const video = document.getElementById("welcomeVid")
 
@@ -156,6 +158,13 @@ video.addEventListener('click', function pauseVideo() {
 	playButton.style.display = 'block';
 
 })
+
+// Cookies Script
+
+$('.accept-button').click(function () {
+	$('.cookie-container').fadeOut(500);
+});
+
 
 
 
