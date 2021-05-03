@@ -1959,7 +1959,7 @@ input, select, textarea {
 	right: 2.4rem;
 	box-shadow: 0 0.4rem 0.8rem rgb(0 0 0 / 12%);
 	font-size: 1.2rem;
-	padding: 1.6rem 1.6rem 1.6rem 1.6rem;
+	padding: 1.3rem 1.3rem 1.3rem 1.3rem;
 	position: fixed;
 	z-index: 100;
 }
@@ -2008,13 +2008,11 @@ input, select, textarea {
 
 @media only screen and (min-width: 1325px) {
 	.cookie-container {
-		bottom: 1.2rem;
 		box-shadow: 0 0.6rem 0.8rem rgb(0 0 0 / 10%);
 		font-size: 1.4rem;
 		line-height: 1.9rem;
 		padding-right: 1.6rem;
 		width: 25rem;
-		left: 1.6rem;
 	}
 
 	.cookie-top {
