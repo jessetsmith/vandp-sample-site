@@ -170,13 +170,12 @@ $('.accept-button').click(function () {
 // Cookies Set and Get Script
 
 		// get the element
-		const element = document.getElementById('accept-button');
-
-		var modal_cookie = Cookies.get('V&PCookies'); // set the cookie to varial
+		var accept_button = document.getElementById('accept-button');
+		var modal_cookie = Cookies.get('V&P_consent'); // set the cookie to variable
 
 		// if click add a cookie and set the value to true
-		element.addEventListener("click", () => {
-			Cookies.set('V&PCookies', 'true')
+		accept_button.addEventListener("click", () => {
+			Cookies.set('V&P_consent', 'true', { path: '/' });
 		});
 
 		if (modal_cookie) {
