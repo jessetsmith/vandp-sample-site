@@ -170,7 +170,7 @@ $('.accept-button').click(function () {
 // Cookies Set and Get Script
 
 		// get the element
-		var accept_button = document.getElementById('accept-button');
+		var accept_button = document.getElementById('accept-button');	
 		var modal_cookie = Cookies.get('V&P_consent'); // set the cookie to variable
 
 		// if click add a cookie and set the value to true
