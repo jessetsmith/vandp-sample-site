@@ -159,13 +159,29 @@ video.addEventListener('click', function pauseVideo() {
 
 })
 
-// Cookies Script
 
+// Cookies Toast Script
 
 $('.accept-button').click(function () {
-	$('.cookie-container').fadeOut(500);
-	$('#cookie-toast-1').delay(800).fadeIn(500).delay(1000).fadeOut(500);
+	$('.cookie-container').fadeOut(500); //fade modal out
+	$('#cookie-toast-1').delay(800).fadeIn(500).delay(1000).fadeOut(500);//dealy, fade toast in, delay, fade toast out
 });
+
+// Cookies Set and Get Script
+
+		// get the element
+		const element = document.getElementById('accept-button');
+
+		var modal_cookie = Cookies.get('V&PCookies'); // set the cookie to varial
+
+		// if click add a cookie and set the value to true
+		element.addEventListener("click", () => {
+			Cookies.set('V&PCookies', 'true')
+		});
+
+		if (modal_cookie) {
+			(document.getElementById('cookie-container').remove()); //remove modal
+		}
 
 
 
