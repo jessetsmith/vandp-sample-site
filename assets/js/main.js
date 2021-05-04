@@ -161,8 +161,10 @@ video.addEventListener('click', function pauseVideo() {
 
 // Cookies Script
 
+
 $('.accept-button').click(function () {
 	$('.cookie-container').fadeOut(500);
+	$('#cookie-toast-1').delay(800).fadeIn(500).delay(1000).fadeOut(500);
 });
 
 
