@@ -11,6 +11,9 @@
 	<link rel="stylesheet" href="assets/css/main.css" />
 	<link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
 	<noscript><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"></noscript>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/js-cookie/2.2.1/js.cookie.min.js"
+		integrity="sha512-Meww2sXqNHxI1+5Dyh/9KAtvI9RZSA4c1K2k5iL02oiPO/RH3Q30L3M1albtqMg50u4gRTYdV4EXOQqXEI336A=="
+		crossorigin="anonymous"></script>
 	<!-- Favicon -->
 	<link rel="icon" href="./images/favicon.ico" type="image/x-icon" />
 	<link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
@@ -158,10 +161,33 @@
 					<li><a href="https://www.vandpdigital.com/calendly" class="icon alt solid fa-calendar" aria-label="Calendly" rel="noopener"><span class="label">Calendly</span></a></li>
 			</ul>
 			<p class="copyright">
-				&copy; V&PDigital. All rights reserved.
+				&copy; V&PDigital. All rights reserved. <a href="https://www.vandpdigital.com/privacy_policy"
+					aria-label="Privacy Policy">Privacy Policy</a>, <a href="https://www.vandpdigital.com/cookies"
+					aria-label="Cookies">Cookie Information</a>, and <a href="https://www.vandpdigital.com/ccpa_do_not_sell_my_information"
+					aria-label="ccpa_do_not_sell_my_information">Do Not Sell My Personal Information</a>
 			</p>
 		</section>
 
+	</div>
+
+	<!-- Cookies Banner-->
+
+	<div class="cookie-container" id="cookie-container">
+		<div class="cookie-top">
+			<p>This website uses cookies to ensure you get the best experience on our website.</p>
+			<div class="cookie-bottom"><button class="accept-button button primary small" id="accept-button">I
+					accept</button><a href="https://www.vandpdigital.com/cookies" aria-label="Cookies">Cookie
+					Information</a>
+			</div>
+		</div>
+	</div>
+
+	<!-- Cookie Toast 1 -->
+
+	<div class="cookie-container" id="cookie-toast-1" style="display: none;">
+		<div class="cookie-top">
+			<p>Your cookie settings have been remembered.</p>
+		</div>
 	</div>
 
 	<!-- Scripts -->
@@ -173,6 +199,7 @@
 	<script src="assets/js/breakpoints.min.js"></script>
 	<script src="assets/js/util.js"></script>
 	<script src="assets/js/main.js"></script>
+	<script src="assets/js/cookies.js"></script>
 	<script src="assets/js/modernizr-custom.js"></script>
 
 </body>
