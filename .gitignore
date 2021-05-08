@@ -4,11 +4,11 @@
 ## Get latest from https://github.com/github/gitignore/blob/master/VisualStudio.gitignore
 
 # Ignore Template Files
-elements.html
-generic.html
+*elements.html
+*generic.html
 
 # Ignore Mac system files
-.DS_store
+*.DS_store
 
 # User-specific files
 *.rsuser
