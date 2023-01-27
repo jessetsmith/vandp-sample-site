@@ -10,10 +10,10 @@
     <meta property="og:type" content="./images/og_type.jpg" />
     <link rel="stylesheet" href="assets/css/main.css" />
     <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" as="style"
-		onload="this.onload=null;this.rel='stylesheet'">
+        onload="this.onload=null;this.rel='stylesheet'">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/js-cookie/2.2.1/js.cookie.min.js"
-		integrity="sha512-Meww2sXqNHxI1+5Dyh/9KAtvI9RZSA4c1K2k5iL02oiPO/RH3Q30L3M1albtqMg50u4gRTYdV4EXOQqXEI336A=="
-		crossorigin="anonymous"></script>
+        integrity="sha512-Meww2sXqNHxI1+5Dyh/9KAtvI9RZSA4c1K2k5iL02oiPO/RH3Q30L3M1albtqMg50u4gRTYdV4EXOQqXEI336A=="
+        crossorigin="anonymous"></script>
     <!-- Favicon -->
     <link rel="icon" href="./images/favicon.ico" type="image/x-icon" />
     <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
@@ -30,12 +30,12 @@
             var a = document.getElementsByTagName("script")[0];
             a.parentNode.insertBefore(r, a);
             for (var n = function (e) {
-                    return function () {
-                        heap.push([e].concat(Array.prototype.slice.call(arguments, 0)))
-                    }
-                }, p = ["addEventProperties", "addUserProperties", "clearEventProperties", "identify",
-                    "resetIdentity", "removeEventProperty", "setEventProperties", "track", "unsetEventProperty"
-                ], o = 0; o < p.length; o++) heap[p[o]] = n(p[o])
+                return function () {
+                    heap.push([e].concat(Array.prototype.slice.call(arguments, 0)))
+                }
+            }, p = ["addEventProperties", "addUserProperties", "clearEventProperties", "identify",
+                "resetIdentity", "removeEventProperty", "setEventProperties", "track", "unsetEventProperty"
+            ], o = 0; o < p.length; o++) heap[p[o]] = n(p[o])
         };
         heap.load("2460975239");
     </script>
@@ -55,22 +55,25 @@
 
             <!-- Nav -->
             <nav id="nav">
-				<ul id="nav-items">
-					<li><a href="https://vandpdigital.com/" aria-label="Home">Home</a></li>
-					<li><a href="https://vandpdigital.com/services" aria-label="Services">Services</a></li>
-					<li><a href="https://vandpdigital.com/about" aria-label="About">About</a></li>
-					<li><a href="https://vandpdigital.com/team" aria-label="Team">Team</a></li>
-					<li>
-						<a class="icon solid fa-angle-down" id="permanent-bubble" href="https://www.vandpdigital.com/contact" aria-label="Contact">Contact Us</a>
-							<ul>
-								<li><a href="https://vandpdigital.com/calendly" aria-label="Calendly">Schedule an Appointment</a></li>
-								<li><a href="https://vandpdigital.com/contact" aria-label="Email">Email Us</a></li>
-								<li><a href="tel:317-473-6116" aria-label="Call">Call Us</a></li>
-								<!-- <li><a href="#">Option Three</a></li>(Will become Info such as Phone number, address to mail to etc) -->
-							</ul>
-					</li>
-				</ul>
-			</nav>
+                <ul id="nav-items">
+                    <li><a href="index.html" aria-label="Home">Home</a></li>
+                    <li><a href="services.html" aria-label="Services">Services</a></li>
+                    <li><a href="about.html" aria-label="About">About</a></li>
+                    <li><a href="team.html" aria-label="Team">Team</a></li>
+                    <li>
+                        <a class="icon solid fa-angle-down" id="permanent-bubble" href="contact.html"
+                            aria-label="Contact">Contact
+                            Us</a>
+                        <ul>
+                            <li><a href="calendly.html" aria-label="Calendly">Schedule an
+                                    Appointment</a></li>
+                            <!-- <li><a href="contact.html" aria-label="Email">Email Us</a></li> -->
+                            <li><a href="tel:317-473-6116" aria-label="Call">Call Us</a></li>
+                            <!-- <li><a href="#">Option Three</a></li>(Will become Info such as Phone number, address to mail to etc) -->
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
 
         </section>
         <!-- Section -->
@@ -174,52 +177,62 @@
                 <!--<li><a href="https://www.tiktok.com/@vidaandpartnersdigital" class="icon alt brands fa-tiktok" aria-label="Tik Tok" rel="noopener"><span class="label">TikTok</span></a></li>-->
                 <li><a href="https://www.linkedin.com/company/vida-and-partners-digital/" target="_blank"
                         class="icon alt brands fa-linkedin" aria-label="Linkedin" rel="noopener"><span
-                            class="label">Linkedin</span></a></li>
+                            class="label">Linkedin</span></a>
+                </li>
                 <li><a href="tel:317-473-6116" class="icon alt solid fa-phone" aria-label="Phone" rel="noopener"><span
                             class="label">Phone</span></a></li>
-                <li><a href="https://www.vandpdigital.com/calendly" class="icon alt solid fa-calendar"
-                        aria-label="Calendly" rel="noopener"><span class="label">Calendly</span></a></li>
+                <li><a href="calendly.html" class="icon alt solid fa-calendar" aria-label="Calendly"
+                        rel="noopener"><span class="label">Calendly</span></a></li>
             </ul>
             <p class="copyright">
-				&copy; V&PDigital. All rights reserved. <a href="https://www.vandpdigital.com/privacy_policy"
-					aria-label="Privacy Policy">Privacy Policy</a>, <a href="https://www.vandpdigital.com/cookies"
-					aria-label="Cookies">Cookie Information</a>, and <a href="https://www.vandpdigital.com/ccpa_do_not_sell_my_information"
-					aria-label="ccpa_do_not_sell_my_information">Do Not Sell My Personal Information</a>
-			</p>
+                &copy; V&PDigital. All rights reserved. <a href="privacy_policy.html"
+                    aria-label="Privacy Policy">Privacy
+                    Policy</a>, <a href="cookies.html" aria-label="Cookies">Cookie
+                    Information</a>, and <a href="ccpa_do_not_sell_my_information.html"
+                    aria-label="ccpa_do_not_sell_my_information">Do Not Sell My Personal Information</a>
+            </p>
         </section>
 
     </div>
 
     <!-- Cookies Banner-->
 
-	<div class="cookie-container" id="cookie-container">
-		<div class="cookie-top">
-			<p>This website uses cookies to ensure you get the best experience on our website.</p>
-			<div class="cookie-bottom"><button class="accept-button button primary small" id="accept-button">I
-					accept</button><button class="button small" onclick="window.location.href='https://www.vandpdigital.com/cookies'" aria-label="Cookies"><span>Learn More</span></button>
-			</div>
-		</div>
-	</div>
+    <div class="cookie-container" id="cookie-container">
+        <div class="cookie-top">
+            <p>This website uses cookies to ensure you get the best experience on our website.</p>
+            <div class="cookie-bottom"><button class="accept-button button primary small" id="accept-button">I
+                    accept</button><button class="button small"
+                    onclick="window.location.href='https://www.vandpdigital.com/cookies'"
+                    aria-label="Cookies"><span>Learn More</span></button>
+            </div>
+        </div>
+    </div>
 
-	<!-- Cookie Toast 1 -->
+    <!-- Cookie Toast 1 -->
 
-	<div class="cookie-container" id="cookie-toast-1" style="display: none;">
-		<div class="cookie-top">
-			<p>Your cookie settings have been remembered.</p>
-		</div>
-	</div>
+    <div class="cookie-container" id="cookie-toast-1" style="display: none;">
+        <div class="cookie-top">
+            <p>Your cookie settings have been remembered.</p>
+        </div>
+    </div>
 
     <!-- Scripts -->
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.dropotron/1.4.3/jquery.dropotron.min.js" integrity="sha512-ugEhUBPC3XfTEBbRia5d9er1tFe5N4yzwQr3xrNSTfmT09xe0fwYxgfDSLwUKCnFoFtLd5rJBZP5tdfcUzLNvw==" crossorigin="anonymous"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.scrollex/0.2.1/jquery.scrollex.min.js" integrity="sha512-eFxuATJvNeUrxxoS/5AeVi6X4wY6IdI9kAtRbuGyD2XTLoJ/R9uBce9lsf2UyvY0tQYlUkbs1wV9jhOPxANCzg==" crossorigin="anonymous"></script>
-	<script src="assets/js/jquery.scrolly.min.js"></script>
-	<script src="assets/js/browser.min.js"></script>
-	<script src="assets/js/breakpoints.min.js"></script>
-	<script src="assets/js/util.js"></script>
-	<script src="assets/js/main.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+        integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.dropotron/1.4.3/jquery.dropotron.min.js"
+        integrity="sha512-ugEhUBPC3XfTEBbRia5d9er1tFe5N4yzwQr3xrNSTfmT09xe0fwYxgfDSLwUKCnFoFtLd5rJBZP5tdfcUzLNvw=="
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.scrollex/0.2.1/jquery.scrollex.min.js"
+        integrity="sha512-eFxuATJvNeUrxxoS/5AeVi6X4wY6IdI9kAtRbuGyD2XTLoJ/R9uBce9lsf2UyvY0tQYlUkbs1wV9jhOPxANCzg=="
+        crossorigin="anonymous"></script>
+    <script src="assets/js/jquery.scrolly.min.js"></script>
+    <script src="assets/js/browser.min.js"></script>
+    <script src="assets/js/breakpoints.min.js"></script>
+    <script src="assets/js/util.js"></script>
+    <script src="assets/js/main.js"></script>
     <script src="assets/js/cookies.js"></script>
-	<script src="assets/js/modernizr-custom.js"></script>
+    <script src="assets/js/modernizr-custom.js"></script>
 
 </body>
 
